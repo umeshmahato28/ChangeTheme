@@ -1,0 +1,51 @@
+[data-theme="cyan"] {
+  /* styles for the light theme */
+  background-color: cyan;
+  color: #000000;
+}
+
+[data-theme="blue"] {
+  /* styles for the dark theme */
+  background-color: rgb(115, 115, 209);
+  color: #ffffff;
+}
+[data-theme="green"] {
+  /* styles for the light theme */
+  background-color: green;
+  color: #f9f8f8;
+}
+
+[data-theme="red"] {
+  /* styles for the dark theme */
+  background-color: #c50c0c;
+  color: #ffffff;
+}
+
+
+#root {
+  padding-top: 20px;
+  max-width: 1550px;
+  height: 97vh;
+  margin: auto;
+  /* background-color: rgb(220, 248, 165); */
+  text-align: center; 
+  
+ }
+ div.count{
+  
+  padding-top: 20px;
+  height:calc();
+  width: auto;
+  
+  
+ } 
+.btn{
+  padding: 100px 100px; 
+  
+  
+ }
+
+ .button{
+  padding-left: 5px;
+  margin-left: 5px;
+ }
