@@ -22,9 +22,7 @@ function App() {
     document.documentElement.setAttribute('data-theme', currentTheme);
   }
 
-  useEffect(() => {
-    
-    setTheme();
+  useEffect(() => {setTheme();
    
   }, [color]);
 
